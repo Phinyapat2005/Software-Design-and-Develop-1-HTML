@@ -75,7 +75,7 @@
   
 ### บันทึกผลการทดลอง
 [บันทึกภาพหน้าจอของผลลัพธ์การทดลอง]
-
+![image](https://github.com/user-attachments/assets/4f923cd8-e420-4bb3-b052-eec96d6a9b77)
 
 ## การทดลองที่ 2: โครงสร้างพื้นฐาน HTML
 ### ขั้นตอนการทดลอง
@@ -113,11 +113,24 @@
   ### บันทึกผลการทดลอง
 - รหัสเอกสาร HTML ที่เขียน:
 ```html
-[วางโค้ด HTML ที่นี่]
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My First Web Page</title>
+</head>
+<body>
+    <h1>Welcome to Phinyapat web page</h1>
+    <p>This is my first web page.</p>
+    <div>This is a block element</div>
+    <span>This is an inline element</span>
+    <em>This text is emphasized</em>
+    <strong>This text is strong</strong>    
+</body>
+</html>
 ```
 - ภาพผลลัพธ์:
 [วางภาพ screenshot ที่นี่]
-  
+  ![image](https://github.com/user-attachments/assets/08e45498-d42b-40b2-9bd6-516667391569)
 ## การทดลองที่ 3: การจัดการข้อความและการจัดรูปแบบ
 ### ขั้นตอนการทดลอง
 1. ทดลองใช้ tag ต่างๆ:
@@ -149,11 +162,35 @@
 ### บันทึกผลการทดลอง
 - รหัสเอกสาร HTML ที่เขียน:
 ```html
-[วางโค้ด HTML ที่นี่]
+<!DOCTYPE html>
+<html>
+   <head>
+    <title>About Me</title>
+   </head> 
+   <body>
+    <h1>ข้อมูลส่วนตัว</h1>
+    <p>ชื่อ - นามสกุล : ภิญญาพัชญ์ บานบัว <br> อายุ : 19 ปี 
+    </p>
+    <hr>
+
+    <h2>ประวัติการศึกษา</h2>
+    <p>จบการศึกษาจากโรงเรียนเสิงสาง <br>
+        กำลังศึกษาที่คณะครุศาสตร์อุตสาหกรรมและเทคโนโลยี สาขาเทคโนโลยีคอมพิวเตอร์
+    </p>
+    <hr>
+
+    <h2>งานอดิเรก</h2>
+    <p>ฟังเพลง <br> อ่านนิยาย <br> ดูหนัง
+    </p>
+    <hr>
+    <h2>เป้าหมายในอนาคต</h2>
+    <p>ในอนาคตอยากเป็นติวเตอร์ด้านการเขียนโค้ด</p>
+   </body>
+</html>
 ```
 - ภาพผลลัพธ์:
 [วางภาพ screenshot ที่นี่]
-
+![image](https://github.com/user-attachments/assets/9375ce32-e111-49ab-a51e-2c066ede5656)
 ## การทดลองที่ 4: การสร้างลิงก์และการแทรกรูปภาพ
 
 ### การเตรียมโครงสร้างโฟลเดอร์และไฟล์
@@ -319,11 +356,54 @@
 ### บันทึกผลการทดลอง
 - รหัสเอกสาร HTML ที่เขียน:
 ```html
-[วางโค้ด HTML ที่นี่]
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <title>แกลเลอรีสินค้า</title>
+</head>
+<body>
+
+    <h1>แกลเลอรีสินค้า</h1>
+
+    <div>
+        <a href="images/gallery/PANDORA1.jpg">
+            <img src="images/gallery/PANDORA1.jpg" 
+                 alt="คลิกเพื่อดูรูปขนาดใหญ่"
+                 width="200">
+        </a>
+        <figcaption>คำอธิบายสินค้า 1 <br> สร้อยคอสีทองประดับด้วยจี้หัวใจล้อมเพชร</figcaption>
+        <hr>
+        <a href="images/gallery/PANDORA2.jpg">
+            <img src="images/gallery/PANDORA2.jpg" 
+                 alt="คลิกเพื่อดูรูปขนาดใหญ่"
+                 width="200">
+        </a>
+        <figcaption>คำอธิบายสินค้า 2 <br> สร้อยข้อสีเงินประดับด้วยจี้หัวใจสีเงิน</figcaption>
+        <hr>
+        <a href="images/gallery/PANDORA3.jpg">
+            <img src="images/gallery/PANDORA3.jpg" 
+                 alt="คลิกเพื่อดูรูปขนาดใหญ่"
+                 width="200">
+        </a>
+        <figcaption>คำอธิบายสินค้า 3 <br> ต่างหูสีเงินรูปหัวใจประดับด้วยเพชร</figcaption>
+        <hr>
+       <a href="images/gallery/PANDORA4.jpg">
+            <img src="images/gallery/PANDORA4.jpg" 
+                 alt="คลิกเพื่อดูรูปขนาดใหญ่"
+                 width="200">
+        </a>
+        <figcaption>คำอธิบายสินค้า 4 <br> แหวนสีเงินประดับด้วยเพชร</figcaption>
+    </div>
+
+    <a href="#">กลับไปข้างบน</a>
+
+</body>
+</html>
 ```
 - ภาพผลลัพธ์:
 [วางภาพ screenshot ที่นี่]
-
+![image](https://github.com/user-attachments/assets/b114305f-1e01-4700-a7aa-20da599de0d1)
 
 ## การทดลองที่ 5: การสร้างตารางและรายการ
 ### วัตถุประสงค์
@@ -391,13 +471,57 @@
 1. สร้างตารางแสดงข้อมูลส่วนตัว
 2. สร้างรายการเมนูอาหาร
 
-[วางโค้ด HTML ที่นี่]
 ```html
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ข้อมูลส่วนตัว & เมนูอาหาร</title>
+    
+</head>
+<body>
+
+    <h2>ข้อมูลส่วนตัว</h2>
+    <table border="1">
+        <tr>
+            <th>หัวข้อ</th>
+            <th>รายละเอียด</th>
+        </tr>
+        <tr>
+            <td>ชื่อ</td>
+            <td>ภิญญาพัชญ์ บานบัว</td>
+        </tr>
+        <tr>
+            <td>อายุ</td>
+            <td>19 ปี</td>
+        </tr>
+        <tr>
+            <td>ชื่อเล่น</td>
+            <td>อิง</td>
+        </tr>
+        <tr>
+            <td>อีเมล</td>
+            <td>inging161248@gmail.com</td>
+        </tr>
+    </table>
+
+    <h2>เมนูอาหาร</h2>
+    <ul>
+        <li>ก๋วยเตี๋ยวไก่ </li>
+        <li>ข้าวผัดหมู </li>
+        <li>ข้าวกะเพราปลาหมึก </li>
+        <li>หมูทอด </li>
+        <li>น้ำส้ม </li>
+    </ul>
+
+</body>
+</html>
 
 ```
 - ภาพผลลัพธ์:
 [วางภาพ screenshot ที่นี่]
-
+![image](https://github.com/user-attachments/assets/168d444b-3cae-4f77-b354-c7d6e415cb66)
 
 ## การทดลองที่ 6: การสร้างฟอร์ม
 ### วัตถุประสงค์
@@ -623,9 +747,125 @@
 ### บันทึกผลการทดลอง
 [วางโค้ด HTML ที่นี่]
 ```
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>สมัครสมาชิก</title>
+    <style>
+        form {
+            max-width: 400px;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+        label {
+            font-weight: bold;
+        }
+        input, select, textarea {
+            width: 100%;
+            padding: 8px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <h2 style="text-align: center;">สมัครสมาชิก</h2>
+
+    <form id="registerForm">
+        <!-- ข้อมูลส่วนตัว -->
+        <label for="fullname">ชื่อ-นามสกุล:</label>
+        <input type="text" id="fullname" name="fullname" required>
+
+        <label for="dob">วันเกิด:</label>
+        <input type="date" id="dob" name="dob" required>
+
+        <label for="gender">เพศ:</label>
+        <select id="gender" name="gender" required>
+            <option value="">เลือกเพศ</option>
+            <option value="male">ชาย</option>
+            <option value="female">หญิง</option>
+            <option value="other">อื่นๆ</option>
+        </select>
+
+        <!-- ข้อมูลการติดต่อ -->
+        <label for="email">อีเมล:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">เบอร์โทร:</label>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" placeholder="กรอกหมายเลข 10 หลัก" required>
+
+        <label for="address">ที่อยู่จัดส่ง:</label>
+        <textarea id="address" name="address" required></textarea>
+
+        <!-- อัปโหลดรูปโปรไฟล์ -->
+        <label for="profilePic">รูปโปรไฟล์:</label>
+        <input type="file" id="profilePic" name="profilePic" accept="image/*" required>
+
+        <!-- การตั้งค่ารหัสผ่าน -->
+        <label for="password">รหัสผ่าน:</label>
+        <input type="password" id="password" name="password" minlength="6" required>
+
+        <label for="confirmPassword">ยืนยันรหัสผ่าน:</label>
+        <input type="password" id="confirmPassword" name="confirmPassword" required>
+
+        <!-- หมวดหมู่สินค้าที่สนใจ -->
+        <label for="category">ความสนใจในหมวดหมู่สินค้า:</label>
+        <select id="category" name="category" required>
+            <option value="">เลือกหมวดหมู่</option>
+            <option value="electronics">อิเล็กทรอนิกส์</option>
+            <option value="fashion">แฟชั่น</option>
+            <option value="home">เครื่องใช้ในบ้าน</option>
+        </select>
+
+        <!-- การยอมรับเงื่อนไข -->
+        <label>
+            <input type="checkbox" id="terms" name="terms" required> ยอมรับเงื่อนไขการใช้งาน
+        </label>
+
+        <button type="submit">สมัครสมาชิก</button>
+    </form>
+
+    <script>
+        document.getElementById("registerForm").addEventListener("submit", function(event) {
+            let password = document.getElementById("password").value;
+            let confirmPassword = document.getElementById("confirmPassword").value;
+            let profilePic = document.getElementById("profilePic").files[0];
+
+            if (password !== confirmPassword) {
+                alert("รหัสผ่านไม่ตรงกัน!");
+                event.preventDefault();
+            }
+
+            if (profilePic && profilePic.size > 2 * 1024 * 1024) { // ตรวจสอบขนาดไฟล์ (2MB)
+                alert("ขนาดไฟล์รูปภาพต้องไม่เกิน 2MB!");
+                event.preventDefault();
+            }
+        });
+    </script>
+
+</body>
+</html>
 - ภาพผลลัพธ์:
 [วางภาพ screenshot ที่นี่]
-
+![image](https://github.com/user-attachments/assets/f7e219f3-675a-442e-ae79-3f3c835ad9ba)
 
 ## การทดลองที่ 7: HTML Layout
 ### วัตถุประสงค์
@@ -713,4 +953,4 @@ semantic elements คือ elements ใน HTML5 ที่มีความห
 
 ### บันทึกผลการทดลอง
 [บันทึกภาพหน้าจอของผลลัพธ์การทดลอง]
-
+![image](https://github.com/user-attachments/assets/715b60c9-9867-43c5-9213-e186a47ded26)
